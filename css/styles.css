@@ -196,7 +196,10 @@ ul {
 }
 
 .link-button {
+    display: block;
+    
     padding: 10px 32px;
+    margin: 0 auto;
 
     font-family: inherit;
     font-weight: 700;
@@ -217,11 +220,6 @@ ul {
 .link-button:hover,
 .link-button:focus {
     background-color: #188CE8;
-}
-
-.flex-hat {
-    display: block;
-    margin: 0 auto;
 }
 
 .section-features {
@@ -267,15 +265,13 @@ ul {
 }
 
 .features {
+    padding-bottom: 10px;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: var(--brand-color);
-}
-
-.features-name {
-    padding-bottom: 10px;
 }
 
 .features-p {
@@ -293,18 +289,16 @@ ul {
 }
 
 .bloks {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    
+    text-align: center;
+    
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--brand-color);
-}
-
-.flex-bloks {
-    margin: 0 auto;
-    margin-bottom: 50px;
-
-    text-align: center;
 }
 
 .flex-img {
@@ -910,7 +904,7 @@ input:focus+.form-svg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-field {}
+/* .form-field {} */
 
 textarea {
     resize: none;
